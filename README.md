@@ -3,6 +3,6 @@ My implementation of deep neural network from scratch for a deeper (no pun inten
 
 * Logistics regression
 * Simple neural network with one hidden layer
-* Deep neural network
+* Deep neural network application: image classification
 
 Credit of the materials in the repo goes to [deeplearning.ai](deeplearning.ai). You can take the deep learning course @ Coursera [here](https://www.coursera.org/specializations/deep-learning?)
