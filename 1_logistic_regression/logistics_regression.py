@@ -49,8 +49,6 @@ def propagate(w, b, X, Y):
     dw -- gradient of the loss with respect to w, thus same shape as w
     db -- gradient of the loss with respect to b, thus same shape as b
 
-    Tips:
-    - Write your code step by step for the propagation. np.log(), np.dot()
     """
 
     m = X.shape[1]
@@ -90,11 +88,6 @@ def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
     params -- dictionary containing the weights w and bias b
     grads -- dictionary containing the gradients of the weights and bias with respect to the cost function
     costs -- list of all the costs computed during the optimization, this will be used to plot the learning curve.
-
-    Tips:
-    You basically need to write down two steps and iterate through them:
-        1) Calculate the cost and the gradient for the current parameters. Use propagate().
-        2) Update the parameters using gradient descent rule for w and b.
     """
 
     costs = []
