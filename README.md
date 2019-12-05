@@ -8,4 +8,6 @@ Here are the implementations in this repo:
 * Deep neural network implementation
 * Deep neural network application: image classification
 
+This implementation really helped me in understanding how neural networks work under the hood. I encourage you try implementing one yourself, if you want gain a better intuition of deep learning.
+
 Credit of the materials in the repo goes to [deeplearning.ai](deeplearning.ai). You can take the deep learning course @ Coursera [here](https://www.coursera.org/specializations/deep-learning?)
