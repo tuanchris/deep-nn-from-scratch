@@ -99,7 +99,7 @@ def L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 30
     np.random.seed(1)
     costs = []                         # keep track of cost
 
-    # Parameters initialization. (≈ 1 line of code)
+    # Parameters initialization. 
     parameters = initialize_parameters_deep(layers_dims)
 
     # Loop (gradient descent)
@@ -116,7 +116,7 @@ def L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 30
 
         # Update parameters.
         parameters = update_parameters(parameters, grads, learning_rate)
-                
+
         # Print the cost every 100 training example
         if print_cost and i % 100 == 0:
             print ("Cost after iteration %i: %f" %(i, cost))

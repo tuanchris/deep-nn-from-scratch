@@ -7,6 +7,7 @@ Here are the implementations in this repo:
 * Simple neural network with one hidden layer
 * Deep neural network implementation
 * Deep neural network application: image classification
+* Convolutional neural network
 
 This implementation really helped me in understanding how neural networks work under the hood. I encourage you try implementing one yourself, if you want gain a better intuition of deep learning.
 
